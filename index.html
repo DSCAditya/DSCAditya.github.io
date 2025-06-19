@@ -3,9 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hello world</title>
+    <meta name ="keyword" content="Aditya Varma CSE">
+    <meta name="description" content="my personal profile">
+    <meta name="author" content="Aditya">
+    <meta http-equiv="refresh" content="10" url="http://localhost:8080/profile">
+    <meta name="robots" content="no-index,no-follow">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>doc</title>
 </head>
 <body>
-    
-</body>
+  <header>
+    <h1>
+        Aditya profile  </h1>
+  </header>  
+  <main>
+    <!--personal info -->
+<section>
+<h2>
+    Personal Information
+</h2>
+
+<img src="https://img.freepik.com/premium-vector/avatar-profile-icon-flat-style-male-user-profile-vector-illustration-isolated-background-man-profile-sign-business-concept_157943-38764.jpg?semt=ais_hybrid&w=740" width=10%>
+<p> <strong> Name: </strong> Aditya Varma</p>
+<p><strong> Branch: </strong> B.Tech in Computer Science Engineering</p>
+<p><strong>College:</strong>MallaReddy University</p>
+<p><strong>Age:</strong>20</p>
+<p><strong>Skills:</strong>HTML,CSS,Java Script</p>
+</section>
+<section>
+    <!--academic perf.-->
+    <h2> Academic performance</h2>
+    <table>
+    <thead>
+        <tr>
+            <th> Semester</th>
+            <th>Subjects</th>
+            <th>s.g.p.a</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1st sem</td>
+        <td>maths,python,ui,sdf</td>
+        <td>8.76</td>
+        </tr>
+        <tr>
+            <td>2nd sem</td>
+            <td>java,uif,beee,ap</td>
+            <td>8.24</td>
+        </tr>
+        <tr>
+            <td>3rd sem</td>
+            <td>dbms,dsj,maths,cn</td>
+            <td>8.52</td>
+        </tr>
+    </tbody>
+    </table>
+</section>
+<section>
+    <h2>Technical skills</h2>
+    <ul>
+        <li><strong>Operating systems: </strong>Windows</li>
+        <li><strong>Languages: </strong>Java,python,c++</li>
+        <li><strong>Front End: </strong>HTML,CSS,Bootstrap</li>
+        <li><strong>Front End frameworks: </strong>Angular,React</li>
+        <li><strong>Server framework: </strong>spring,spring MVC,Node js,Express js</li>
+        <li><strong>Databases:</strong>MongoDB,MySQL</li>
+    </ul>
+</section>
+<section>
+    <!--hobbies-->
+    <h2>Hobbies & Interests</h2>
+    <ol>
+        <li>coding challenge</li>
+        <li>watching youtube channels</li>
+        <li>Web Desgining</li>
+        <li>Cricket</li>
+    </ol>
+</section>
+<section>
+    <h2>contact Me</h2>
+    <!--contact details-->
+    <form action="#" method="post">
+     <div class="form-group">  
+  <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    </div>
+    <div class="form-group">
+        <label for="callbackdate">When to call back</label>
+<input type="datetime-local" name="callbackdate" id="callbackdate" required>
+    </div>
+    <div class="form-group">
+        <label for="contactnumber">contact No</label>
+        <input type="value" name="contactnumber" id="contactnumber"required>
+    </div>
+    <div class="form-group">
+        <label for="description">Description</label>
+        <textarea id="description" name="description" id="description" ></textarea>
+    </div>
+    <div class="form-group">
+        <label for="github">github link</label>
+        <input type="url" name="github" id="github" placeholder="http://github:">
+    </div>
+    <div class="form-group">
+        <input type="submit" name="submit">
+    </div>
+</form>
+</section>
+</section>
+  
+</main>
+</body> 
 </html>
